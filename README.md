@@ -1,6 +1,6 @@
 # DBKD-PLM
 * Codebase for ACL 2023 conference long paper Bridging the Gap between Decision and Logits in Decision-based Knowledge Distillation for Pre-trained Language Models.
-* Our code currently is based on huggingface and its run_glue scripts.
+* Our code currently is based on huggingface transformers package and its run_glue scripts.
 # Requirements
 See `requirements.txt`
 # Usage
