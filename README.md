@@ -10,8 +10,6 @@ To perform the proposed distillation method in our paper, please follow the foll
   * If you do not have a teacher model, you can finetune one by `bash scripts/finetune_teacher.sh` before that.
   * If have your own teacher model, change the `TEACHER_PATH` variable to your path to teacher model.
 * Step 3: Run knowledge distillation by `base scripts/distil.sh`. It will automatically do hyper-parameter search and evaluations. If you do not want to search hyper-parameter, we recommend to set `ALPHA=0.7`, `TEMP=1`, and `SIGMA=1`.
-# Future plans
-* If you have interests in developing some hybrid methods between our method and other baseline methods, you can explore the `hybrid` strategy in `student.py` :)
 # Citation
 ```
 ArXiv version comming soon...
